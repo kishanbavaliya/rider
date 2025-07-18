@@ -1,7 +1,6 @@
 services:
   - type: web
     name: laravel-app
-    env: php
     plan: free
     branch: main
     buildCommand: |
